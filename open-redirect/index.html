@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="20; url:https://devcybsec.com/en/">
+    <title>Open redirect simple example</title>
+  </head>
+  <body>
+    <h1>Visit devcybsec and make a donation you pork!</h1>
+    <form name="ugliestformever" id="ugliestformever" onsubmit=" return send()" method="post">
+      <label labelFor="redirect_to">You should sanitize your inputs you pork!</label>
+      <input type="text" name="redirect_to" id="redirect_to"/>
+      <input type="submit" value="Go to"/>
+    </form>
+
+    <p><b>you could be redirected to the orange site you PORK: <span id="content"></span></b></p>
+
+    <script type="text/javascript">
+      //store the content in a file and hash it you PORK
+      function send(){
+          let redirectTo = document.forms["ugliestformever"]["redirect_to"].value;
+          document.getElementById("content").innerTEXT = redirectTo;
+      }
+    </script>
+  </body>
+</html>
