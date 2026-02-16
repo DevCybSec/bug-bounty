@@ -22,7 +22,7 @@ You set a redirect\_to url parameter without validating if you are sendind the u
 
 2. HTML &lt;meta&gt; tags
 This tags can tell browsers to refresh a web page and make a GET request to a URL defined in the tag's content attribute
-> &ls;meta http-equiv="refresh" content="0; url="attackaer\_site.com/"&gt;
+> &lt;meta http-equiv="refresh" content="0; url="attackaer\_site.com/"&gt;
 
 3. Javascript DOM modification
 The DOM is an API for HTML and XML documents that allows developers to modifi the structure, style, 
