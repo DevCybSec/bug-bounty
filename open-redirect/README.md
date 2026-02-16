@@ -20,11 +20,11 @@
 You set a redirect\_to url parameter without validating if you are sendind the user to a legitimate site.
 `http://myownsite.com/?redirect_to=attacker_site.com`
 
-2.HTML &lt;meta&gt; tags
+2. HTML &lt;meta&gt; tags
 This tags can tell browsers to refresh a web page and make a GET request to a URL defined in the tag's content attribute
 >&ls;meta http-equiv="refresh" content="0; url="attackaer\_site.com/"&gt;
 
-3.Javascript DOM modification
+3. Javascript DOM modification
 The DOM is an API for HTML and XML documents that allows developers to modifi the structure, style, 
 and content of a web page. Because the __location__ property denotes where a request should be
 redirect to the specified URL. 
